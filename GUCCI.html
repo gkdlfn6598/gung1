@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GUCCI/궁</title>
+      <link rel="stylesheet" type="text/css" href="/SRC2/backfade/demo.css" />
+      <link rel="stylesheet" type="text/css" href="/SRC2/backfade/backgroundTransition.css" />
+</head>
+<style type="text/css">
+    .soft:hover{
+        background:#000;
+        opacity: 1;
+        }
+    .soft {
+        width: 100%;
+        height: 140px;
+        background: linear-gradient(to bottom, rgba(0,0,0,.8), rgba(0,0,0,0.1));
+        color: white;
+        font-size: 12px;
+        margin: -10px 0px 0px 0px;
+        font-family: Futura, Helvertica, Arial, sans-serif;
+        }
+    body {
+        margin: 0 auto;
+        width: 100%;
+        }
+    nav {
+        width: 100%;
+        height: 680px;
+        }
+    .first-nav {
+        width: 100%;
+        height: 680px;
+        }
+    .main {
+        width: 100%;
+        height: 20px;
+        margin: 0px 0px 5px 30px;
+        text-align: middle;
+        }
+    .main_obj {
+        width 80px;
+        height: 23px;
+        }
+    .main_middle {
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        font-family: Futura, Helvertica, Arial, sans-serif;
+        margin-top: -10px;
+        }
+    .main_middle > a { 
+        text-decoration: none;
+        color: white;
+        font-family: "Times New Roman", serif;
+        }
+    #mega-menu {
+        width: 95%;
+        height: 370px;
+        background: white;
+        position: absolute;
+        top: 130px;
+        left: 45px;
+        opacity: 0;
+        margin: 0 auto;
+        }
+    .list_lnb {
+        list-style: none;
+        float: left;
+        width: 33.3333%
+        height: inherit;
+        border-right: 1px solid grey;
+        margin-top: 15px;
+        }
+    .list_lnb2 {
+        list-style: none;
+        float: left;
+        width: 33.3333%
+        height: inherit;
+        margin-top: 10px;
+        }
+    .list_lnb >li > a {
+        color: black;
+        text-decoration: none;
+        margin: 5px;
+        }
+    .list_gnb {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        width: 90%;
+        height: inherit;
+        padding: 0px 0px 0px 90px;
+        align-items: center;
+        margin-top: 15px;
+        }
+    .list_gnb > li > a {
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        color: white;
+        font-size: 12px;
+        }
+    .list_gnb > .first:hover #mega-menu{
+        opacity: 0.8;
+        }
+    .list_lnb > li:first-child {
+        color: black;
+        font-size: 11px;
+        }
+    .list_lnb > li {
+        margin: 20px 15px 20px 300px;
+        }
+    .list_lnb2 > li:first-child {
+        color: black;
+        font-size: 11px;
+        }
+    .list_lnb2 > li {
+        margin: 20px 15px 20px 15px;
+        }
+    .list_lnb2 >li > a {
+        color: black;
+        text-decoration: none;
+        margin: 5px;
+        }
+    .list_lnb3 > li {
+        margin: 10px 15px 10px 420px;
+        }
+    .list_lnb3 >li > a {
+        color: black;
+        text-decoration: none;
+        margin: 5px;
+        }
+    .list_lnb3 > li:first-child {
+        color: black;
+        font-size: 12px;
+        }
+    .list_gnb > .third:hover #mega-menu3{
+        opacity: 0.8;
+        z-index: 600;
+        }
+    .list_gnb > .second:hover #mega-menu2{
+        opacity: 0.8;
+        z-index: 600;
+        }
+    .list_gnb > .forth:hover #mega-menu3 {
+        opacity: 0.8;
+        z-index: 600;
+        }
+    .list_gnb > .five:hover #mega-menu3 {
+        opacity: 0.8;
+        z-index: 600;
+        }
+    .list_gnb > .six:hover #mega-menu3 {
+        opacity: 0.8;
+        z-index: 600;
+        }
+    .list_gnb > .seven:hover #mega-menu3 {
+        opacity: 0.8;
+        z-index: 600;
+        }
+    .list_gnb > .eight:hover #mega-menu3 {
+        opacity: 0.8;
+        z-index: 0;
+        }
+    #mega-menu2 {
+        width: 95%;
+        height: 370px;
+        background: white;
+        position: absolute;
+        top: 130px;
+        left: 45px;
+        opacity: 0;
+        margin: 0 auto;
+        }
+    #mega-menu3 {
+        width: 95%;
+        height: 370px;
+        background: white;
+        position: absolute;
+        top: 130px;
+        left: 45px;
+        opacity: 0;
+        margin: 0 auto;
+        }
+    .list_lnb3 {
+        list-style: none;
+        float: left;
+        width: 33.3333%
+        height: inherit;
+        margin-top: 20px;
+        }
+    .list_lnb4 {
+        list-style: none;
+        float: left;
+        width: 33.3333%
+        height: inherit;
+        margin-top: 20px;
+        }
+    .list_lnb4 > li {
+        margin: 10px 15px 10px 40px;
+        }
+    .list_lnb4 >li > a {
+        color: black;
+        text-decoration: none;
+        margin: 5px;
+        }
+    .list_lnb4 > li:first-child {
+        color: black;
+        font-size: 12px;
+        }
+    .list_lnb5 {
+        list-style: none;
+        float: left;
+        width: 33.3333%
+        height: inherit;
+        margin-top: 20px;
+        }
+    .list_lnb5 > li {
+        margin: 10px 15px 10px 40px;
+        }
+    .list_lnb5 >li > a {
+        color: black;
+        text-decoration: none;
+        margin: 0px;
+        }
+    .list_lnb5 > li:first-child {
+        color: black;
+        font-size: 12px;
+        }
+    .list_lnb6 {
+        list-style: none;
+        float: left;
+        width: 20.3333%
+        height: inherit;
+        margin-top: 20px;
+        }
+    .list_lnb6 > li {
+        margin: 7px 15px 7px 40px;
+        }
+    .list_lnb6 >li > a {
+        color: black;
+        text-decoration: none;
+        margin: 5px;
+        }
+    .list_lnb6 > li:first-child {
+        color: black;
+        font-size: 12px;
+        }
+    .list_lnb7 {
+        list-style: none;
+        float: left;
+        width: 33.3333%
+        height: inherit;
+        margin-top: 20px;
+        }
+    .list_lnb7 > li {
+        margin: 10px 15px 15px 40px;
+        }
+    .list_lnb7 >li > a {
+        color: black;
+        text-decoration: none;
+        margin: 0px;
+        }
+    .list_lnb7 > li:first-child {
+        color: black;
+        font-size: 12px;
+        }
+    .list_lnb8 > li {
+        margin: 10px 15px 15px 480px;
+        }
+    .list_lnb8 >li > a {
+        color: black;
+        text-decoration: none;
+        margin: 5px;
+        }
+    .list_lnb8 > li:first-child {
+        color: black;
+        font-size: 12px;
+        }
+    .list_lnb8 {
+        list-style: none;
+        float: left;
+        width: 33.3333%
+        height: inherit;
+        margin-top: 20px;
+        }
+    .list_lnb9 > li {
+        margin: 10px 0px 15px -60px;
+        }
+    .list_lnb9 >li > a {
+        color: black;
+        text-decoration: none;
+        margin: 5px;
+        }
+    .list_lnb9 > li:first-child {
+        color: black;
+        font-size: 12px;
+        }
+    .list_lnb9 {
+        list-style: none;
+        float: left;
+        width: 33.3333%
+        height: inherit;
+        margin-top: 20px;
+        }
+    .list_lnb10 > li {
+        margin: 10px 0px 0px -30px;
+        }
+    .list_lnb10 >li > a {
+        color: black;
+        text-decoration: none;
+        margin: 5px;
+        }
+    .list_lnb10 > li:first-child {
+        color: black;
+        font-size: 12px;
+        }
+    .list_lnb10 {
+        list-style: none;
+        float: left;
+        width: 33.3333%
+        height: inherit;
+        margin-top: 20px;
+        }
+    .list_lnb11 > li {
+        margin: 15px 0px 0px -30px;
+        }
+    .list_lnb11 >li > a {
+        color: black;
+        text-decoration: none;
+        margin: 5px;
+        }
+    .list_lnb11 > li:first-child {
+        color: black;
+        font-size: 12px;
+        }
+    .list_lnb11 {
+        list-style: none;
+        float: left;
+        width: 33.3333%
+        height: inherit;
+        margin-top: 20px;
+        }
+    .list_lnb13 > li {
+        margin: 15px 0px 0px 500px;
+        }
+    .list_lnb13 >li > a {
+        color: black;
+        text-decoration: none;
+        margin: 5px;
+        }
+    .list_lnb13 > li:first-child {
+        color: black;
+        font-size: 12px;
+        }
+    .list_lnb13 {
+        list-style: none;
+        float: left;
+        width: 33.3333%
+        height: inherit;
+        margin-top: 20px;
+        }
+    .list_lnb12 > li {
+        margin: 15px 0px 0px 90px;
+        }
+    .list_lnb12 >li > a {
+        color: black;
+        text-decoration: none;
+        margin: 5px;
+        }
+    .list_lnb12 > li:first-child {
+        color: black;
+        font-size: 12px;
+        }
+    .list_lnb12 {
+        list-style: none;
+        float: left;
+        width: 33.3333%
+        height: inherit;
+        margin-top: 20px;
+        }
+    .list_lnb14 > li:first-child {
+        color: black;
+        font-size: 11px;
+        }
+    .list_lnb14 > li {
+        margin: 20px 30px 20px 15px;
+        }
+    .list_lnb14 >li > a {
+        color: black;
+        text-decoration: none;
+        margin: 5px;
+        }
+    .list_lnb14 {
+        list-style: none;
+        float: left;
+        width: 33.3333%
+        height: inherit;
+        margin-top: 10px;
+        }
+    .list_lnb15 > li:first-child {
+        color: black;
+        font-size: 11px;
+        margin-top: 20px;
+        }
+    .list_lnb15 > li {
+        margin: 0px 15px 0px 15px;
+        }
+    .list_lnb15 >li > a {
+        color: black;
+        text-decoration: none;
+        margin: 5px;
+        }
+    .list_lnb15 {
+        list-style: none;
+        float: left;
+        width: 33.3333%
+        height: inherit;
+        border-left: 1px solid grey;
+        margin-top: 10px;
+        }
+    .list_lnb16 > li:first-child {
+        color: black;
+        font-size: 11px;
+        margin-top: 20px;
+        }
+    .list_lnb17 > li:first-child {
+        color: black;
+        font-size: 11px;
+        margin-top: 20px;
+        }
+    .list_lnb16 > li {
+        margin: 0px 40px 0px -10px;
+        }
+    .list_lnb16 >li > a {
+        color: black;
+        text-decoration: none;
+        margin: 5px;
+        }
+    .list_lnb16 {
+        list-style: none;
+        float: left;
+        width: 33.3333%
+        height: inherit;
+        border-left: 1px solid grey;
+        border-right: 1px solid grey;
+        margin-top: 10px;
+        }
+    .list_lnb17 > li:first-child {
+        color: black;
+        font-size: 11px;
+        margin-top: 20px;
+        }
+    .list_lnb17 > li {
+        margin: 0px 0px 0px -20px;
+        }
+    .list_lnb17 >li > a {
+        color: black;
+        text-decoration: none;
+        margin: 5px;
+        }
+    .list_lnb17 {
+        list-style: none;
+        float: left;
+        width: 33.3333%
+        height: inherit;
+        margin-top: 10px;
+        }
+    .body1 {
+        background: rgba(231,231,231, 1);
+        width: 99%;
+        height: 1060px;
+        margin: 0 auto;
+        margin-top: 15px;
+        }
+    .first_mainbody {
+        text-align: center;
+        width: 99%;
+        height: 1000px;
+        margin: 0px auto;
+        }
+    .title_big {
+        font-size: 36px;
+        font-weight: 200;
+        font-family: 굴림;
+        color: #313131;
+        margin-bottom: -5px;
+        margin-top: -5px;
+        word-spacing: 6px;
+        }
+    .tap {
+        font-size: 11px;
+        margin-bottom: 30px;
+        }
+    .button {
+        background-color: #1b1b1b;
+        border-color: #1b1b1b;
+        color: #e5dfd9;
+        border-style: solid;
+        border-width: 2px;
+        padding-bottom: 12px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 12px;
+        text-decoration: none;
+        }
+    .button1 {
+        background-color: #1b1b1b;
+        border-color: #1b1b1b;
+        color: #e5dfd9;
+        border-style: solid;
+        border-width: 2px;
+        padding-bottom: 12px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 12px;
+        text-decoration: none;
+        margin: 0px 0px 0px 866px;
+        font-size: 13px;
+        text-decoration: none;
+        color: white;
+
+        }
+    .main123 {
+        margin: 0px 0px 30px 0px;
+        text-align: center;
+        margin-top: 250px;
+        margin-bottom: 0px;
+        font-size: 60px;
+        font-family: 돋움;
+        font-weight: normal;
+        }
+    .white_body {
+        margin: -850px 0px 0px 1300px;
+        background-color: rgb(246, 245, 248);
+        width: 110px;
+        height: 250px;
+        padding: 40px 30px 20px 30px;
+        }
+    .second_lode {
+        font-size: 14px;
+        font-family: 굴림;
+        color: #666;
+        word-break: keep-all;
+        text-align: center;
+        margin-bottom: 30px;
+        }
+    .first_lode {
+        font-size: 17px;
+        font-family: 굴림;
+        color: #666;
+        text-align: center;
+        margin-bottom: 20px;
+        }
+    .logo {
+        margin-left: 15px;
+        }
+    .none {
+        text-align: center;
+        text-decoration: none;
+        color: #1b1b1b;
+        font-size: 13px;
+        margin-left: 35px;
+        }
+    .body2 {
+        background: rgba(231,231,231, 1);
+        width: 99%;
+        height: 1800px;
+        margin: 0 auto;
+        }
+    .second_mainbody {
+        margin: 0 auto;
+        text-align: center;
+        z-index: 500;
+        position: relative;
+        }
+    .title_big2 {
+        font-size: 36px;
+        font-weight: 200;
+        font-family: 굴림;
+        color: #313131;
+        margin-bottom: -5px;
+        margin-top: 15px;
+        word-spacing: 6px;
+        }
+    .white_body2 {
+        margin: -1700px 0px 0px 1350px;
+        background-color: rgb(246, 245, 248);
+        width: 130px;
+        height: 270px;
+        padding: 40px 30px 20px 30px;
+        position: absolute;
+        z-index: 1500;
+        text-align: center;
+        }
+    .white_body3 {
+        margin: -900px 0px 0px 350px;
+        background-color: rgb(246, 245, 248);
+        width: 120px;
+        height: 300px;
+        padding: 30px 30px 30px 30px;
+        z-index: 1000;
+        position: absolute;
+        text-align: center;
+        }
+    .none2 {
+        text-align: center;
+        text-decoration: none;
+        color: #1b1b1b;
+        font-size: 12px;
+        }
+    .first_lode2 {
+        font-size: 19px;
+        font-weight: bold;
+        font-family: 굴림;
+        color: black;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 25px;
+        }
+</script> 
+</style>
+
+<body>
+    <nav>
+        <header></header>
+        <div class="first-nav">
+        <div class="soft">
+        <div class="main_obj"></div>
+        <div class="main">
+            <span>대한민국</span>
+            <span>&nbsp</span>
+            <span>&nbsp</span>
+            <span>한국어</span>
+            <span>&nbsp</span>
+            <span>&nbsp</span>
+            <span>02-3452-1921</span>
+            <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+            <span>로그인</span>
+            <span>&nbsp</span>
+            <span>&nbsp</span>
+            <span>♡</span>
+            <span>&nbsp</span>
+            <span>&nbsp</span>
+            <span>▩</span>
+            <span>&nbsp</span>
+            <span>&nbsp</span>
+            <span>쇼핑백</span>
+        </div>
+        <div class="main_middle">
+            <a href="https://www.gucci.com/kr/ko/">G&nbspU&nbspC&nbspC&nbspI</a>
+        </div>
+        <div class="menu_bar">
+            <ul class="list_gnb">
+                <li class="ten"><a href="#"></a>
+                    <div id="mega-menu">
+                        <ul class="list_lnb">
+                            <li><strong></strong></li>
+                        </ul>
+                </li>
+                <li class="eleven"><a href="#"></a>
+                    <div id="mega-menu">
+                        <ul class="list_lnb">
+                            <li><strong></strong></li>
+                        </ul>
+                </li>
+                <li class="first"><a href="#">WHATS NEW</a>
+                    <div id="mega-menu">
+                        <ul class="list_lnb">
+                            <li><strong>&nbspNEW</strong></li>
+                            <li><a href="#">런웨이</a></li>
+                            <li><a href="#">투워즈 더 선 여성 컬렉션</a></li>
+                            <li><a href="#">투워즈 더 선 남성 컬렉션</a></li>
+                            <li><a href="#">구찌 1955 홀스빗 핸드백</a></li>
+                            <li><a href="#">구찌 테니스 1977</a></li>
+                            <li><a href="#">온라인 단독 선글라스</a></li>
+                        </ul>
+                        <ul class="list_lnb2">
+                            <li><strong>패션쇼 보기</strong></li>
+                            <li><a href="#">2020 가을/겨울여<br>성 패션쇼</a></li>
+                            <li><a href="#">2020 가을/겨울 남<br>성 패션쇼</a></li>
+                            <li><a href="#">2020 봄/여름 컬렉</br>션</a></li>
+                            <li><a href="#">2020 크루즈 컬렉션</a></li>
+                        </ul>
+                        <ul class="list_lnb2">
+                            <li><strong>&nbsp</strong></li>
+                            <li><a href="#">2020 가을/겨울여<br>성 패션쇼</a></li>
+                        </ul>
+                        <ul class="list_lnb5">
+                            <li><strong>구찌 에디트</strong></li>
+                            <li><a href="#"><img src="12.jpg" width="80", height="80"></a></li>
+                            <li><a href="#"><img src="32.jpg" width="80", height="80"></a></li>
+                        </ul>
+                        <ul class="list_lnb9">
+                            <li><a href="#"><strong></strong></a></li>
+                            <li><a href="#">&nbsp&nbsp우연히 마주친 도플<br>&nbsp&nbsp&nbsp갱어</a></li>
+                            <li><a href="#">&nbsp</a></li>
+                            <li><a href="#">&nbsp</a></li>
+                            <li><a href="#">&nbsp&nbsp립스틱, 그 비밀의<br>&nbsp&nbsp&nbsp역사</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="second"><a href="#">여성</a>
+                    <div id="mega-menu2">
+                        <ul class="list_lnb3">
+                            <li><a href="#"><strong>신상품</strong></a></li>
+                            <li><a href="#">새로운 룩</a></li>
+                            <li><a href="#">투워즈 더 선</a></li>
+                            <li><a href="#">구찌 1955 홀스빗 핸드백</a></li>
+                            <li><a href="#">구찌 테니스 1977</a></li>
+                            <li><a href="#">온라인 단독 선글라스</a></li>
+                            <li>&nbsp</li>
+                            <li><a href="#"><strong>선물 제안</strong></a></li>
+                            <li><a href="#">for 여성</a></li>
+                            <li><a href="#">어버이날 선물</a></li>
+                            <li><a href="#">스몰 기프트</a></li>
+                            <li><a href="#">구찌 데코</a></li>
+                        </ul>
+                        <ul class="list_lnb4">
+                            <li><a href="#"><strong>핸드백</strong></a></li>
+                            <li><a href="#">구찌의 선택</a></li>
+                            <li><a href="#">탑핸들백</a></li>
+                            <li><a href="#">토트백</a></li>
+                            <li><a href="#">숄더백</a></li>
+                            <li><a href="#">크로스백</a></li>
+                            <li><a href="#">벨트백 & 백팩</a></li>
+                            <li><a href="#">미니백</a></li>
+                            <li><a href="#">클러치</a></li>
+                            <li><a href="#">프레셔스 스킨</a></li>
+                            <li><a href="#">트래블 백</a></li>
+                        </ul>
+                        <ul class="list_lnb5">
+                            <li><a href="#"><strong>지갑</strong></a></li>
+                            <li><a href="#">구찌의 선택</a></li>
+                            <li><a href="#">장지갑&반지갑</a></li>
+                            <li><a href="#">파우치</a></li>
+                            <li><a href="#">카드 케이스&가죽 소품</a></li>
+                            <li>&nbsp</li>
+                            <li><a href="#"><strong>패션소품</strong></a></li>
+                            <li><a href="#">벨트</a></li>
+                            <li><a href="#">주얼리&시계</a></li>
+                            <li><a href="#">아이웨어</a></li>
+                            <li><a href="#">모자</a></li>
+                            <li><a href="#">스카프 및 장갑</a></li>
+                        </ul>
+                        <ul class="list_lnb4">
+                            <li><a href="#"><strong>의류</strong></a></li>
+                            <li><a href="#">새로운 룩</a></li>
+                            <li><a href="#">드레스</a></li>
+                            <li><a href="#">재킷&코트</a></li>
+                            <li><a href="#">아우터웨어</a></li>
+                            <li><a href="#">탑&셔츠</a></li>
+                            <li><a href="#">스웨터&가디건</a></li>
+                            <li><a href="#">스웨트셔츠&티셔츠</a></li>
+                            <li><a href="#">액티브웨어</a></li>
+                            <li><a href="#">스커트</a></li>
+                            <li><a href="#">팬츠&쇼츠</a></li>
+                            <li><a href="#">데님</a></li>
+                            <li><a href="#">수영복</a></li>
+                        </ul>
+                        <ul class="list_lnb6">
+                            <li><a href="#"><strong>여성 슈즈</strong></a></li>
+                            <li><a href="#">펌프스&뮬</a></li>
+                            <li><a href="#">모카신&로퍼</a></li>
+                            <li><a href="#">발레리나 슈즈</a></li>
+                            <li><a href="#">샌들</a></li>
+                            <li><a href="#">슬리퍼</a></li>
+                            <li><a href="#">슬라이드 & 통</a></li>
+                            <li><a href="#">에스파드리유 & 웨지</a></li>
+                            <li><a href="#">부츠 & 부티</a></li>
+                            <li><a href="#">스니커즈</a></li>
+                            <li>&nbsp</li>
+                            <li><a href="#"><strong>DIY</strong></a></li>
+                            <li><a href="#">지갑</a></li>
+                            <li><a href="#">니트웨어</a></li>
+                            <li><a href="#">토트백</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="third"><a href="#">남성</a>
+                    <div id="mega-menu3">
+                        <ul class="list_lnb3">
+                         <li><a href="#"><strong>신상품</strong></a></li>
+                            <li><a href="#">새로운 룩</a></li>
+                            <li><a href="#">투워즈 더 선</a></li>
+                            <li><a href="#">GG 사이키델릭</a></li>
+                            <li><a href="#">구찌 테니스 1977</a></li>
+                            <li><a href="#">온라인 단독 선글라스</a></li>
+                            <li>&nbsp</li>
+                            <li><a href="#"><strong>선물 제안</strong></a></li>
+                            <li><a href="#">for 남성</a></li>
+                            <li><a href="#">스몰 기프트</a></li>
+                            <li><a href="#">구찌 데코</a></li>
+                        </ul>
+                        <ul class="list_lnb2">
+                            <li><a href="#"><strong>남성 가방</strong></a></li>
+                            <li><a href="#">구찌의 선택</a></li>
+                            <li><a href="#">크로스백</a></li>
+                            <li><a href="#">백팩</a></li>
+                            <li><a href="#">벨트백</a></li>
+                            <li><a href="#">토트백</a></li>
+                            <li><a href="#">포트폴리오</a></li>
+                            <li><a href="#">브리프케이스</a></li>
+                            <li><a href="#">러기지</a></li>
+                        </ul>
+                        <ul class="list_lnb5">
+                            <li><a href="#"><strong>지갑</strong></a></li>
+                            <li><a href="#">구찌의 선택</a></li>
+                            <li><a href="#">장지갑&반지갑</a></li>
+                            <li><a href="#">파우치</a></li>
+                            <li><a href="#">카드 케이스&가죽 소품</a></li>
+                            <li>&nbsp</li>
+                            <li><a href="#"><strong>패션소품</strong></a></li>
+                            <li><a href="#">벨트</a></li>
+                            <li><a href="#">주얼리&시계</a></li>
+                            <li><a href="#">아이웨어</a></li>
+                            <li><a href="#">넥타이</a></li>
+                            <li><a href="#">모자</a></li>
+                            <li><a href="#">스카프 및 장갑</a></li>
+                        </ul>
+                        <ul class="list_lnb4">
+                            <li><a href="#"><strong>의류</strong></a></li>
+                            <li><a href="#">새로운 룩</a></lㅑ>
+                            <li><a href="#">재킷&코트</a></li>
+                            <li><a href="#">아우터웨어&가죽 자켓</a></li>
+                            <li><a href="#">수트</a></li>
+                            <li><a href="#">셔츠</a></li>
+                            <li><a href="#">스웨터&가디건</a></li>
+                            <li><a href="#">스웨트셔츠</a></li>
+                            <li><a href="#">액티브웨어</a></li>
+                            <li><a href="#">티셔츠&폴로</a></li>
+                            <li><a href="#">팬츠&쇼츠</a></li>
+                            <li><a href="#">데님</a></li>
+                            
+                        </ul>
+                        <ul class="list_lnb6">
+                            <li><a href="#"><strong>남성 슈즈</strong></a></li>
+                            <li><a href="#">모카신&로퍼</a></li>
+                            <li><a href="#">레이스업</a></li>
+                            <li><a href="#">부츠</a></li>
+                            <li><a href="#">슬리퍼</a></li>
+                            <li><a href="#">샌들&슬라이드</a></li>
+                            <li><a href="#">에스파드리유</a></li>
+                            <li><a href="#">스니커즈</a></li>
+                            <li>&nbsp</li>
+                            <li><a href="#"><strong>DIY</strong></a></li>
+                            <li><a href="#">지갑</a></li>
+                            <li><a href="#">니트웨어</a></li>
+                            <li><a href="#">토트백</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="forth"><a href="#">선물제안</a>
+                    <div id="mega-menu3">
+                        <ul class="list_lnb8">
+                            <li><a href="#"><strong>선물 제안</strong></a></li>
+                            <li><a href="#">for 여성</a></li>
+                            <li><a href="#">for 남성</a></li>
+                            <li><a href="#">스몰 기프트</a></li>
+                        </ul>
+                        <ul class="list_lnb7">
+                            <li><a href="#"><strong>&nbsp</strong></li>
+                            <li><a href="#">이니셜 서비스</a></li>
+                            <li><a href="#">Disney x Gucci</a></li>
+                        </ul>
+                        <ul class="list_lnb5">
+                            <li><a href="#"><strong>GUCCI SERVICES</strong></a></li>
+                            <li><a href="#"><img src="12.jpg" width="80", height="80"></a></li>
+                            <li><a href="#"><img src="32.jpg" width="80", height="80"></a></li>
+                        </ul>
+                        <ul class="list_lnb9">
+                            <li><a href="#"><strong></strong></a></li>
+                            <li><a href="#">무료배송</a></li>
+                            <li><a href="#">&nbsp</a></li>
+                            <li><a href="#">&nbsp</a></li>
+                            <li><a href="#">클라이언트 어드바이<br>&nbsp저 에게 문의하기</a></li>
+                        </ul>
+                        <ul class="list_lnb10">
+                            <li><a href="#"><strong>&nbsp</strong></a></li>
+                            <li><a href="#"><img src="22.jpg" width="80", height="80"></a></li>
+                            <li><a href="#"><img src="42.jpg" width="80", height="80"></a></li>
+                        </ul>
+                        <ul class="list_lnb11">
+                            <li><a href="#"><strong>&nbsp</strong></a></li>
+                            <li><a href="#">손쉬운 반품</a></li>
+                            <li>&nbsp</li>
+                            <li>&nbsp</li>
+                            <li><a href="#">에프터 서비스</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="five"><a href="#">주얼리&시계</a>
+                    <div id="mega-menu3">
+                        <ul class="list_lnb13">
+                            <li><a href="#"><strong>골드 주얼리</strong></a></li>
+                            <li><a href="#">반지</a></li>
+                            <li><a href="#">목걸이</a></li>
+                            <li><a href="#">팔찌</a></li>
+                            <li><a href="#">귀걸이</a></li>
+                        </ul>
+                        <ul class="list_lnb12">
+                            <li><a href="#"><strong>&nbsp&nbsp&nbsp실버 주얼리</strong></li>
+                            <li><a href="#">여성</a></li>
+                            <li><a href="#">&nbsp&nbsp&nbsp남성</a></li>
+                            <li><a href="#">&nbsp&nbsp&nbsp반지</a></li>
+                            <li><a href="#">&nbsp&nbsp&nbsp목걸이</a></li>
+                            <li><a href="#">&nbsp&nbsp&nbsp팔찌</a></li>
+                            <li><a href="#">&nbsp&nbsp&nbsp귀걸이<a></li>
+                            
+                        </ul>
+                        <ul class="list_lnb12">
+                            <li><a href="#"><strong>패션 주얼리</strong></a></li>
+                            <li><a href="#">&nbsp&nbsp&nbsp여성</a></li>
+                            <li><a href="#">&nbsp&nbsp&nbsp남성</a></li>
+                            <li><a href="#">&nbsp&nbsp&nbsp반지</a></li>
+                            <li><a href="#">&nbsp&nbsp&nbsp목걸이</a></li>
+                            <li><a href="#">&nbsp&nbsp&nbsp팔찌<a></li>
+                            <li><a href="#">귀걸이</a></li>
+                            <li><a href="#">&nbsp&nbsp&nbsp브로치&핀<a></li>
+                            <li><a href="#">헤어 액세서리</a></li>
+                        </ul>
+                        <ul class="list_lnb12">
+                            <li><a href="#"><strong>시계</strong></a></li>
+                            <li><a href="#">구찌 그립 시계</a></li>
+                            <li><a href="#">여성</a></li>
+                            <li><a href="#">남성</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="six"><a href="#">뷰티</a>
+                    <div id="mega-menu3">
+                        <ul class="list_lnb8">
+                            <li><a href="#"><strong>메이크업</strong></a></li>
+                            <li><a href="#">립메이크업</a></li>
+                            <li><a href="#">아이메이크업</a></li>
+                        </ul>
+                        <ul class="list_lnb2">
+                            <li><a href="#"><strong>&nbsp&nbsp&nbsp여성 향수</strong></li>
+                            <li><a href="#">메모아 뒨 오더</a></li>
+                            <li><a href="#">&nbsp&nbsp&nbsp알케미스트 가든</a></li>
+                            <li><a href="#">&nbsp&nbsp&nbsp구찌 블룸</a></li>
+                            <li><a href="#">&nbsp&nbsp&nbsp구찌 길티</a></li>
+                            <li><a href="#">&nbsp&nbsp&nbsp구찌 플로라</a></li>
+                            <li><a href="#">&nbsp&nbsp&nbsp구찌 뱀부<a></li>
+                            
+                        </ul>
+                        <ul class="list_lnb14">
+                            <li><a href="#"><strong>남성 향수</strong></a></li>
+                            <li><a href="#">&nbsp&nbsp&nbsp메모아 뒨 오더</a></li>
+                            <li><a href="#">&nbsp&nbsp&nbsp알케미스트 가든</a></li>
+                            <li><a href="#">&nbsp&nbsp&nbsp구찌 길티</a></li>
+                        </ul>
+                        <ul class="list_lnb15">
+                            <li><a href="#"><strong>스토리</strong></a></li>
+                            <li>&nbsp</li>
+                            <li><a href="#"><img src="ripstick.jpg" width="300" height="153"></a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="seven"><a href="#">데코</a>
+                    <div id="mega-menu3">
+                        <ul class="list_lnb8">
+                            <li><a href="#"><strong>데코</strong></a></li>
+                            <li><a href="#">캔들</a></li>
+                            <li><a href="#">머그</a></li>
+                            <li><a href="#">테이블웨어</a></li>
+                            <li><a href="#">다용도 트레이&도자기함</a></li>
+                        </ul>
+                        <ul class="list_lnb2">
+                            <li><a href="#"><strong>&nbsp</strong></li>
+                            <li><a href="#">꽃병</a></li>
+                            <li><a href="#">&nbsp&nbsp&nbsp트레이&폴딩 트레이</a></li>
+                            <li><a href="#">&nbsp&nbsp&nbsp쿠션</a></li>
+                            <li><a href="#">&nbsp&nbsp&nbsp이불&담요</a></li>
+                        </ul>
+                        <ul class="list_lnb14">
+                            <li><a href="#"><strong>&nbsp</strong></a></li>
+                            <li><a href="#">의자</a></li>
+                            <li><a href="#">병풍</a></li>
+                            <li><a href="#">벽지</a></li>
+                        </ul>
+                        <ul class="list_lnb15">
+                            <li><a href="#"><strong>자세히 보기</strong></a></li>
+                            <li>&nbsp</li>
+                            <li><a href="#"><img src="GUCCIDECO.jpg" width="300" height="152"></a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="eight"><a href="#">구찌 스토리</a>
+                    <div id="mega-menu3">
+                       <ul class="list_lnb3">
+                            <li><a href="#"><strong>&nbsp&nbsp&nbspGUCCI GARDEN</strong></li>
+                            <li><a href="#">Gucci Garden Galleria</a></li>
+                            <li><a href="#">&nbsp&nbsp&nbspGucci Osteria da<br>&nbsp&nbsp&nbsp&nbsp&nbspMassimo Bottura</a></li>
+                            <li><a href="#">&nbsp&nbsp&nbspGucci Osteria Beverly<br>&nbsp&nbsp&nbsp&nbsp&nbspHills da Massimo<br>&nbsp&nbsp&nbsp&nbsp&nbspBottura</a></li>
+                            <li><a href="#">&nbsp&nbsp&nbspThe Boutique</a></li>
+                            <li><a href="#">&nbsp&nbsp&nbspThe Bookstore</a></li>
+                        </ul>
+                        <ul class="list_lnb16">
+                            <li><a href="#"><strong>&nbsp&nbsp&nbspGUCCI EQUILBRIUM</strong></li>
+                            <li><a href="#">&nbsp&nbsp&nbsp</li>
+                            <li><a href="#"><img src="images.jpg" width="300" height="153"></a></li>
+                        </ul>
+                        <ul class="list_lnb17">
+                            <li><a href="#"><strong>&nbsp&nbsp&nbsp모두보기</strong></li>
+                        </ul>
+                        <ul class="list_lnb3">
+                            <li><a href="#"><strong>&nbsp</strong></li>
+                            <li><a href="#">Gucci Garden Galleria</a></li>
+                            <li><a href="#">Gucci Osteria da<br>Massimo Bottura</a></li>
+                            <li><a href="#">&nbsp&nbsp&nbspGucci Osteria Beverly<br>Hills da Massimo<br>Bottura</a></li>
+                            <li><a href="#">&nbsp&nbsp&nbspThe Boutique</a></li>
+                            <li><a href="#">&nbsp&nbsp&nbspThe Bookstore</a></li>
+                        </ul>
+                    </div>
+                <li class="nine"><a href="#"></a>
+                    <div id="mega-menu3">
+                        <ul class="list_lnb13">
+                            <li><a href="#"><strong></strong></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </div>
+                    <li class="eleven"><a href="#"></a>
+                    <div id="mega-menu">
+                        <ul class="list_lnb">
+                            <li><strong></strong></li>
+                        </ul>
+                    </li>
+                </li>
+              </li>
+        </div>
+        <div class="text">
+            <h1 class="main123"> 구찌의 지속가능성 </h1>
+            <p>&nbsp</p>
+            <a href="#" class="button1"> 자세히보기</a>
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="/SRC2/backfade/backgroundTransition.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+	  $('.first-nav').backgroundTransition({
+		  backgrounds:[
+			  { src: 'http://www.blueb.co.kr/SRC2/_image/01.jpg' },
+			  { src: 'http://www.blueb.co.kr/SRC2/_image/02.jpg' },
+			  { src: 'http://www.blueb.co.kr/SRC2/_image/03.jpg' },
+			  { src: 'http://www.blueb.co.kr/SRC2/_image/04.jpg' },
+			  { src: 'http://www.blueb.co.kr/SRC2/_image/05.jpg' },
+			  { src: 'http://www.blueb.co.kr/SRC2/_image/06.jpg' },
+			  { src: 'http://www.blueb.co.kr/SRC2/_image/07.jpg' }
+		  ],
+		  transitionDelay: 3,
+		  animationSpeed: 800
+	  });
+  });
+</script>
+    </nav>
+    <section>
+        <div class ="body1">
+            <div class ="first_mainbody">
+               <a href="#"><img src="bag.jpg" width="700" height="700"></a>
+               <p>핸드백</p>
+               <h2 class="title_big">구찌 1955 홀스빗 숄더백</h2>
+               <p class="tap">◇</p>
+               <a href="#" class="button">자세히보기</a>
+            </div>
+            <div class="white_body">
+              <a href="#" class="logo"><img src="logo_bag.jpg" width="80" height="80"></a>
+              <p class="first_lode">숄더백</p>
+              <p class="second_lode">구찌1955 홀스빗 라인에 활력을 불어 넣는 GG 패턴</p>
+              <p><a href="#" class="none">더보기 ></a></p>
+            </div>
+        </div>
+        <div class ="body2">
+            <div class="second_mainbody">
+                <a href="#"><img src="bagandman.jpg" width="1366" height="1643"></a>
+                <h2 class="title_big2">구찌 오프 더 그리드</h2>
+                <p class="tap">◇</p>
+                <a href="#" class="button">자세히보기</a>
+            </div>
+            <div class="white_body2">
+                <a href="#" class="logo2"><img src="logo2.jpg" width="80" height="80"></a>
+                <p class="first_lode2">이퀼리브리엄</p>
+                <p class="second_lode">지구와 인류의<br>발전을 위한 약속.</p>
+                <p><a href="#" class="none2">자세히 보기></a></p>
+            </div>
+            <div class="white_body3">
+                <a href="#" class="logo2"><img src="logo2.jpg" width="80" height="80"></a>
+                <p class="first_lode2">오프 더 그리드</p>
+                <p class="second_lode">재생 원사를 이용하여 GG의 재생 나일론이 만들어졌는지 알아보세요.</p>
+                <p><a href="#" class="none2">자세히 보기></a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+    </footer>
+
+</body>
+</html>
